@@ -1,0 +1,12 @@
+/* Exemplo de uso de id (especificidade maior) */
+#tela-login, #tela-bemvindo { background: #f7f7fb; }
+#tela-cadastro { background: #ffffff; }
+
+/* Exemplo de uso de class */
+.card { border-radius: 12px; }
+
+/* Foco visual nos campos */
+.form-control:focus, .form-select:focus {
+  box-shadow: none;
+  border-color: #6c63ff;
+}
